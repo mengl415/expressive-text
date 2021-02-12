@@ -1,0 +1,83 @@
+body {
+    background-color: #080808;
+}
+
+.line1c{
+    position: absolute;
+    z-index: 1;
+    font-family: "iA Writer QuattroS Regular";
+    font-size: 40px;
+    font-weight: 500;
+    color:#F2F2F2;
+    top: 30px;
+    left: 400px;
+    height: 120px;
+    width: 550px;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+}
+
+.line2c{
+    position: absolute;
+    z-index: 1;
+    font-family: "iA Writer QuattroS Regular";
+    font-size: 40px;
+    font-weight: 500;
+    color: #F2F2F2;
+    top: 200px;
+    left: calc(50% - 240px);
+    height: 150px;
+    width: 800px;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+}
+
+.line3c{
+    position: absolute;
+    z-index: 1;
+    font-family: "iA Writer QuattroS Regular";
+    font-size: 40px;
+    font-weight: 500;
+    color: #F2F2F2;
+    top: 450px;
+    left: 400px;
+    height: 220px;
+    width: 1100px;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+}
+
+.quote{
+    font-size: 80px;
+    font-family: "iA Writer QuattroS Italic";
+    color: #600000;
+}
+
+.quote:hover{
+    mix-blend-mode: multiply;
+    letter-spacing: 10px;
+}
+
+.line4c{
+    position: absolute;
+    font-family: "iA Writer QuattroS Regular";
+    font-size: 100px;
+    font-weight: 500;
+    color: #600000;
+    letter-spacing: 15px;
+    top: 10px;
+    left: 50px;
+    z-index: 10;
+    mix-blend-mode: overlay;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+}
+
+.line4c:hover{
+    color: red;
+    mix-blend-mode: normal;
+}

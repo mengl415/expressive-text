@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "iA Writer QuattroS Regular";
+  src: url("./assets/iAWriterQuattroS-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "iA Writer QuattroS Italic";
+    src: url("./assets/iAWriterQuattroS-Italic.woff2") format("woff2");
+  }
+
+a{
+    text-decoration:none;
+    color: #600000;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body {
+  background-color: #131313;
+}
+
+.line1a{
+    position: absolute;
+    font-family: "iA Writer QuattroS Regular";
+    font-size: 24px;
+    font-weight: 500;
+    color:#F2F2F2;
+    top: 30px;
+    left: 50px;
+    height: 120px;
+    width: 1300px;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+}
+
+.shadow{
+    font-weight: 800;
+    font-size: 80px;
+    color: #600000;
+    letter-spacing: 5px;
+}
+
+.shadow:hover{
+    mix-blend-mode: multiply;
+}
+
+.red{
+    color: #600000;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.red:hover{
+    font-family: "iA Writer QuattroS Italic"
+}
+
+.line2a{
+    position: absolute;
+    font-family: "iA Writer QuattroS Regular";
+    font-size: 24px;
+    font-weight: 500;
+    color: #F2F2F2;
+    top: 250px;
+    left: 50px;
+    height: 120px;
+    width: 400px;
+   /* border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+}
+
+.line3a{
+    position: absolute;
+    font-family: "iA Writer QuattroS Regular";
+    font-size: 24px;
+    font-weight: 500;
+    color: #F2F2F2;
+    top: 450px;
+    left: 400px;
+    height: 120px;
+    width: 1000px;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+}
+
+.line4a{
+    position: absolute;
+    font-family: "iA Writer QuattroS Regular";
+    font-size: 18px;
+    font-weight: 500;
+    color: #600000;
+    top: calc(100% - 60px);
+    left: calc(100% - 550px);
+    height: 30px;
+    width: 500px;
+    /*border-style: solid;
+    border-color: white;
+    border-width: 2px;*/
+}
+
+.line4a:hover{
+    color: white;
+}
